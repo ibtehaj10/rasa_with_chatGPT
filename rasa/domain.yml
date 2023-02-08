@@ -1,0 +1,258 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - Question_1
+  - Question_2
+  - Question_3
+  - Question_4
+  - Question_5
+  - Question_6
+  - Question_7
+  - Question_8
+  - Question_9
+  - Question_10
+  - Question_11
+  - Question_12
+  - Question_13
+  - Question_14
+  - Question_15
+  - Question_16
+  - Question_17
+  - Question_18
+  - Question_19
+  - Question_20
+  - Question_21
+  - Question_22
+  - Question_23
+  - Question_24
+  - Question_25
+  - Question_26
+  - Question_27
+  - Question_28
+  - Question_29
+  - Question_30
+  - Question_31
+  - Question_32
+  - Question_33
+  - Question_34
+  - Question_35
+  - Question_36
+  - Question_37
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by GPT."
+
+  utter_answer_1:
+  - text: "Selected participants are notified by push notification, email, and direct message in the app with instructions on how to confirm their reservation. Merchants send these notifications via the platform at different times, as indicated in the rules published for each event.
+            Unselected participants are notified at the merchants' discretion after the expiry of the confirmation deadline for their individual event(s)."
+
+  utter_answer_2:
+  - text: "No, 'Just Ended' is not related to winner selection. 
+            All events remain 'Current' for 3 days following the close of registration before moving to 'Just Ended' where they remain for 7 days before being permanently archived.
+            An event that has moved to the 'Just Ended' tab simply means that it has been 3 days since registration closed and does not imply that the entry was either selected or not selected. These timing rules apply to all events and are unrelated to winner selection or notification."
+
+  utter_answer_3:
+  - text: "Certain events require a Special Events Link to access registration.
+            To access the latest event links, check Upcoming Events in the app and tap 'More Info' if available or visit our Special Events Registration page.
+            Make sure to follow @copdate  and your local shops on social media for release announcements, info, and links."
+
+  utter_answer_4:
+  - text: "Congrats on your W!
+            Copdate does not manage invoicing, logistics or fulfillment for our retail partners. Each merchant handles their own fulfilment of products reserved using the platform.
+            For events where shipping and/or invoicing is required, users with confirmed reservations will receive an invoice / purchase instructions directly from the merchant typically within 1-2 business days following the payment of the reservation fee.
+            You can consult the event rules by tapping the 'Rules' button on your reservation.
+            For all questions about your invoice, order status, or shipping updates, please reach out to the merchant directly and they will be able to assist you further.
+            Rest assured that if you have a confirmed reservation, your product is secured."
+
+  utter_answer_5:
+  - text: "If you are seeing an 'Unrecognized Account' error when submitting the form, it is most likely due to a typo or error in the form.
+            The information submitted in the form must be identical to your Copdate account profile.
+            Please ensure that the following info matches your Copdate account exactly (like a login):
+             First name
+             Last name
+             Email
+            Once all the above fields in the form match your account profile, your submission  will work normally."
+
+  utter_answer_6:
+  - text: "Boost is available in limited quantities on qualifying events only. If Boost is available, you will receive an invite by email after your entry is successfully processed.
+            If your entry was successfully processed, but you did not receive an invite to Boost, it means that Boost was not available on your entry for that event."
+
+  utter_answer_7:
+  - text: "If your payment was successfully charged, you will receive a transaction receipt to your registered email. Check spam or other folders if you do not see it in your inbox. 
+            Check your card statement to verify whether the charge is marked 'Pending' or 'Processing'.
+            If a charge is marked 'Pending', this means that the payment has not been processed. Please contact your card provider directly to inquire as to the status of the payment or any charges appearing on your statement.
+            Once the payment has been successfully processed, your entry will be updated and your Boost will be reflected in the app.
+            Navigate away and back into MY LISTS and look for (X3) or (X2) following your registration number indicating your Boost level."
+
+  utter_answer_8:
+  - text: "If the 'Pay' button is unresponsive when you are attempting to purchase Boost, this might be due to your card provider blocking and/or preventing the charge.
+            To resolve this, please contact your card provider directly to ensure they authorize the charge, and the payment should then process normally."
+
+  utter_answer_9:
+  - text: "Boost is available in limited quantities from the time eligible entries are processed until all available Boost has been claimed or the event is closed.
+            It is not possible to purchase Boost after an event is closed.
+            If you are getting an 'Oops! Invalid Token” error message when attempting to purchase, it means either that the event is closed or that all available Boost for that event has been already been claimed."
+
+  utter_answer_10:
+  - text: "If you requested multiple Activation Codes, only the last code is valid. Each time a new code is requested, the previous one is canceled.
+            Please wait a few minutes for the activation email and use the most recent code to activate your account."
+
+  utter_answer_11:
+  - text: "COPDATE BOOST is an optional feature that allows you to upgrade your qualifying Copdate entry for access to multiple rounds of winner draws and for the opportunity to earn Boost Perks."
+
+  utter_answer_12:
+  - text: "There are three (3) BOOST TIERS available: SINGLE, DOUBLE & TRIPLE;
+            All entries are SINGLE by default, unless Boosted by the user after entering;
+            After entering a List event, qualified users will receive an email inviting them to Boost their entry. Invitations are sent only to the email registered on your Copdate account.
+            Users can BOOST their entry by selecting their desired Tier and completing the payment steps;
+            Each Tier will have its own allocation of winners, with a separate round of draws for each;
+            Winners will be randomly selected in 3 rounds, starting with the highest Tier (TRIPLE);
+            Users in higher Tiers will be eligible for the winner draw in their respective Tier as well as in the draw(s) for each lower Tier(s) (i.e. users with a TRIPLE BOOST entry will be eligible in the 3 rounds of draws for this event);
+            If a Boosted entry is not selected in the initial round, it is automatically entered in subsequent draws for each lower Tier(s);
+            Entries can only be selected once per event.
+            The same user cannot be selected more than once in the same event.
+            Boosting your entry does not guarantee that your entry will be selected. 
+            Boost fees are non-refundable and are separate from Copdate Reservation fees."
+
+  utter_answer_13:
+  - text: "Qualified users will be able to select from the following Boost options*
+            TRIPLE BOOST        	        	
+           You will be entered in three (3) rounds of draws*;
+           Limited availability.
+            DOUBLE BOOST
+           You will be entered in two (2) rounds of draws*;
+           Limited availability.
+            SINGLE BOOST
+           You will be entered in one (1) round of draws
+           Entries are SINGLE BOOST by default. No further action is required.
+           * Boost Fees apply."
+
+  utter_answer_14:
+  - text: "Boosting your entry is not a guarantee that your entry will be selected for the opportunity to reserve or purchase from the participating retailer."
+
+  utter_answer_15:
+  - text: "No. Boosting your entry is optional and at the user's discretion. Users that do not wish to Boost their entry will retain their default entry at no cost."
+
+  utter_answer_16:
+  - text: "Yes. Each Tier will have its own allocation of winners, with a separate round of draws for each. All entries are Single Boost by default and will be eligible for one round of draws.
+           Users in higher Tiers will be eligible for the drawing in their respective Tier as well as in the draw(s) for each lower Tier(s) (i.e. users with a TRIPLE BOOST entry will be eligible in the 3 rounds of draws)."
+
+  utter_answer_17:
+  - text: "Enter a qualifying Copdate List event Check your registered email for an invite to Boost your entry
+           Select your desired Boost Tier & complete the payment steps
+           Your entry is BOOSTED!*
+           * Your Boost confirmation will be emailed."
+
+  utter_answer_18:
+  - text: "Once the Boost Fee has been paid, you will receive a confirmation email and your entry will be updated accordingly in the app.
+           Open MY LISTS in the app and look for (X3) or (X2) following your registration number indicating the Boost level of your entry."
+
+  utter_answer_19:
+  - text: "Boost is available in limited quantities prior to winner notifications for the event. Once all Boost has been claimed, or winners have been notified, the option to Boost an entry for that event will no longer be possible."
+
+  utter_answer_20:
+  - text: "Boost fees can vary from one event to the next and will be displayed on the Boost page accessed by clicking the invite link sent to your registered email."
+
+  utter_answer_21:
+  - text: "The Boost Fee is applied only if you successfully complete the payment process. If your attempted transaction is unsuccessful, declined, or if you decide to cancel before completing the payment, the Fee will not be charged."
+
+  utter_answer_22:
+  - text: "When applicable, the Fee is charged by Copdate and will appear on your credit card statement as Copdate Inc."
+
+  utter_answer_23:
+  - text: "Yes. Boost fees are discretionary and separate from Copdate Reservation Fees. In order to secure their product, winners must confirm their reservation by completing all the steps before the confirmation deadline indicated in the app."
+
+  utter_answer_24:
+  - text: "No. Once the Boost Fee is paid, it is not refundable. Users that do not wish to pay the Boost Fee can simply cancel before completing the payment process."
+
+  utter_answer_25:
+  - text: "No. Once an entry has been Boosted, it can not be cancelled. 
+           However, users that do not wish to pay the Reservation Fee if their entry is selected, can simply cancel their pending reservation (i.e. 'Drop') at no cost and give someone else the opportunity to cop hassle-free."
+
+  utter_answer_26:
+  - text: "Entries can only be Boosted once per event.
+           Please make sure to carefully read and follow the rules for each event. Reservations may be cancelled at the retailer's discretion if the rules for the event are not followed."
+
+  utter_answer_27:
+  - text: "Users who purchase Boost, may be eligible to earn a wide range of BOOST PERKS. Each Boost purchase helps you unlock different types of Perks such as Next Drops On Lock, Copdate Perks Passes, Insider Events, Copdate Concierge, and much more.
+           The more you Boost, the more Perks you can unlock.
+           For more details, visit our Boost Perks page."
+
+  utter_answer_28:
+  - text: "Boost is available on qualifying events. If you enter a qualifying Boost event, you will receive an invite link by email shortly after entering."
+
+
+  utter_answer_29:
+  - text: "This might be caused by your card provider blocking or refusing the charge.
+           Please contact your card provider to ensure they authorize the charge and the payment should process normally."
+
+  utter_answer_30:
+  - text: "If the payment was successfully charged, you will receive a transaction receipt by email. Check your spam folder if you do not see it in your inbox. 
+           Please check your card statement to verify whether any charge is marked 'pending'. 
+           If a charge is still pending, it means that the payment has not been processed.  Please contact your card provider directly to inquire on the status of charges appearing on your statement.
+           Once the Boost payment has been successfully processed, your entry will be updated in the app."
+
+  utter_answer_31:
+  - text: "Once your Boost transaction is successful, you will receive a transaction receipt by email and see your entry Boosted in the app.
+           Refresh your entries by navigating away and back into MY LISTS and look for (X3) for Triple Boost or (X2) for Double Boost following your entry registration number."
+
+  utter_answer_32:
+  - text: "Perks are awarded to eligible users starting with the most recent / active event(s) that they have Boosted, and can also be applied to qualifying events that you enter in the future.
+           This means that even if your entry is not selected on a specific event you Boosted, you are still eligible to receive Perks on future qualifying events that you enter.  As long as you have Boost on your profile, you are eligible for Perks!
+           For more details, visit our Boost Perks  page."
+
+  utter_answer_33:
+  - text: "Purchasing Boost is not a guarantee that your entry will be selected to receive Perks.
+           Copdate Boost & Boost Perks are subject to availability and eligibility requirements. Purchasing Boost and/or acquiring Boost / Boost Perks as part of a promotion does not guarantee that the participant will be selected to receive Perks and/or for the opportunity to purchase the associated products or services.
+           Copdate Boost & Boost Perks are available while quantities last and are subject to Copdate Terms of Use."
+
+  utter_answer_34:
+  - text: "By using Boost and/or any other feature, you accept and are agreeing to the Copdate Terms of Use.
+           Didn't find what you're looking for? Check our main FAQ page or drop us a line"
+
+  utter_answer_35:
+  - text: "YOU WILL BE ENTERED IN THREE (3) ROUNDS OF DRAWS.
+           If your entry is not selected in the initial round, it is automatically entered in subsequent draws for each lower Tier(s) and eligible entries qualify for Boost Perks*.
+           * Limited availability."
+
+  utter_answer_36:
+  - text: "YOU WILL BE ENTERED IN TWO (2) ROUNDS OF DRAWS.
+           If your entry is not selected in the initial round, it is automatically entered in subsequent draws for each lower Tier(s) and eligible entries qualify for Boost Perks*.
+           * Limited availability."
+
+  utter_answer_37:
+  - text: "YOU WILL BE ENTERED IN ONE (1) ROUNDS OF DRAWS.
+           LIST entries are Single Boost by default. 
+           No additional action is required."         
+
+
+actions:
+- action_custom_fallback
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,197 @@
+version: "3.1"
+
+stories:
+
+- story: happy path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Question_1
+  - action: utter_answer_1
+
+- story: happy path 2
+  steps:
+  - intent: Question_2
+  - action: utter_answer_2
+
+- story: happy path 3
+  steps:
+  - intent: Question_3
+  - action: utter_answer_3
+  
+- story: happy path 4
+  steps:
+  - intent: Question_4
+  - action: utter_answer_4
+
+- story: happy path 5
+  steps:
+  - intent: Question_5
+  - action: utter_answer_5
+
+- story: happy path 6
+  steps:
+  - intent: Question_6
+  - action: utter_answer_6
+
+- story: happy path 7
+  steps:
+  - intent: Question_7
+  - action: utter_answer_7
+
+- story: happy path 8
+  steps:
+  - intent: Question_8
+  - action: utter_answer_8
+
+- story: happy path 9
+  steps:
+  - intent: Question_9
+  - action: utter_answer_9
+
+- story: happy path 10
+  steps:
+  - intent: Question_10
+  - action: utter_answer_10
+
+- story: happy path 11
+  steps:
+  - intent: Question_11
+  - action: utter_answer_11
+
+- story: happy path 12
+  steps:
+  - intent: Question_12
+  - action: utter_answer_12
+
+- story: happy path 13
+  steps:
+  - intent: Question_13
+  - action: utter_answer_13
+
+- story: happy path 14
+  steps:
+  - intent: Question_14
+  - action: utter_answer_14
+
+- story: happy path 15
+  steps:
+  - intent: Question_15
+  - action: utter_answer_15
+
+- story: happy path 16
+  steps:
+  - intent: Question_16
+  - action: utter_answer_16
+
+- story: happy path 17
+  steps:
+  - intent: Question_17
+  - action: utter_answer_17
+
+
+- story: happy path 18
+  steps:
+  - intent: Question_18
+  - action: utter_answer_18
+
+
+- story: happy path 19
+  steps:
+  - intent: Question_19
+  - action: utter_answer_19
+
+- story: happy path 20
+  steps:
+  - intent: Question_20
+  - action: utter_answer_20
+
+- story: happy path 21
+  steps:
+  - intent: Question_21
+  - action: utter_answer_21
+
+- story: happy path 22
+  steps:
+  - intent: Question_22
+  - action: utter_answer_22
+
+- story: happy path 23
+  steps:
+  - intent: Question_23
+  - action: utter_answer_23
+
+- story: happy path 24
+  steps:
+  - intent: Question_24
+  - action: utter_answer_24
+
+- story: happy path 25
+  steps:
+  - intent: Question_25
+  - action: utter_answer_25
+
+- story: happy path 26
+  steps:
+  - intent: Question_26
+  - action: utter_answer_26
+
+- story: happy path 27
+  steps:
+  - intent: Question_27
+  - action: utter_answer_27
+
+- story: happy path 28
+  steps:
+  - intent: Question_28
+  - action: utter_answer_28
+
+- story: happy path 29
+  steps:
+  - intent: Question_29
+  - action: utter_answer_29
+
+- story: happy path 30
+  steps:
+  - intent: Question_30
+  - action: utter_answer_30
+
+- story: happy path 31
+  steps:
+  - intent: Question_31
+  - action: utter_answer_31
+
+- story: happy path 32
+  steps:
+  - intent: Question_32
+  - action: utter_answer_32
+
+- story: happy path 33
+  steps:
+  - intent: Question_33
+  - action: utter_answer_33
+
+- story: happy path 34
+  steps:
+  - intent: Question_34
+  - action: utter_answer_34
+
+- story: happy path 35
+  steps:
+  - intent: Question_35
+  - action: utter_answer_35
+
+- story: happy path 36
+  steps:
+  - intent: Question_36
+  - action: utter_answer_36
+
+- story: happy path 37
+  steps:
+  - intent: Question_37
+  - action: utter_answer_37
+
+- story: fallback
+  steps:
+  - intent: out_of_scope
+  - action: action_custom_fallback
