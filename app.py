@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify,render_template,send_from_directory
 from gtts import gTTS
 import openai
 from flask_cors import CORS
-from config import apikey
+# from config import apikey
 import requests
 import speech_recognition as sr 
 import random
@@ -12,7 +12,7 @@ CORS(app)
 
 
 
-openai.api_key = apikey
+# openai.api_key = apikey
 
 def openais(message):
     r = requests.post('http://localhost:5002/webhooks/rest/webhook', json={"message": message})

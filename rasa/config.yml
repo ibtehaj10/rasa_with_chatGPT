@@ -44,10 +44,9 @@ policies:
   - name: MemoizationPolicy
   - name: RulePolicy
     nlu_threshold: 0.7
-    code_threshold: 0.7
+    code_threshold: 0.4
     fallback_action_name: "action_default_fallback"
-    core:
-      threshold: 0.7
+  
 
 
   - name: UnexpecTEDIntentPolicy
